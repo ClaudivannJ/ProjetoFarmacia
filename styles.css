@@ -24,53 +24,11 @@ body {
     color: var(--text);
     background-color: var(--background);
 }
-
-/* Modern Header */
-header {
-    background-color: var(--white);
-    padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+section h1{
+    text-align: center;
+    margin: 2rem;
+    color: var(--primary-dark);
 }
-
-.header-content {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    color: var(--primary);
-    font-size: 1.75rem;
-    font-weight: 700;
-    letter-spacing: -0.025em;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 2.5rem;
-}
-
-nav a {
-    color: var(--text);
-    text-decoration: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-}
-
-nav a:hover {
-    color: var(--primary);
-    background-color: #f1f5f9;
-}
-
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(37, 99, 235, 0.9), rgba(29, 78, 216, 0.9)), url('img/hero-bg.jpg');
@@ -245,6 +203,9 @@ nav a:hover {
     gap: 2rem;
 }
 
+.categorias section{
+    margin-bottom: 2rem;
+}
 .categoria {
     background: var(--white);
     padding: 2.5rem;
@@ -275,6 +236,9 @@ nav a:hover {
 .categoria:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+section h2{
+    margin: 1rem 0;
 }
 
 .categoria h3 {

@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos - Farmácia Saúde & Bem-estar</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="styles.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1 class="logo">Farmácia Saúde & Bem-estar</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="promocoes.html">Promoções</a></li>
-                    <li><a href="pedido.html">Pedidos</a></li>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-container">
+                <div class="logo-icon">F</div>
+                <h1 class="logo-text">Farmácia Saúde & Bem-estar</h1>
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="produtos.html" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="promocoes.html" class="nav-link ">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pedidos.html" class="nav-link">Pedidos</a>
+                    </li>
                 </ul>
+                <a href="#" class="cart-button">
+                    Carrinho
+                    <span class="cart-count">0</span>
+                </a>
             </nav>
         </div>
     </header>
@@ -98,7 +116,26 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Farmácia Saúde & Bem-estar. Todos os direitos reservados.</p>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda a Sexta: 7h às 22h</p>
+                <p>Sábados e Domingos: 8h às 20h</p>
+            </div>
+            <div class="footer-info">
+                <h3>Endereço</h3>
+                <p>Rua das Flores, 123</p>
+                <p>Centro - São Paulo/SP</p>
+            </div>
+            <div class="footer-info">
+                <h3>Contato</h3>
+                <p>Tel: (11) 1234-5678</p>
+                <p>Email: contato@farmaciasaude.com.br</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Farmácia Saúde & Bem-estar. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
